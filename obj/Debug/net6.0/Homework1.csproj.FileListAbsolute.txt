@@ -1,0 +1,15 @@
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/bin/Debug/net6.0/Homework1
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/bin/Debug/net6.0/Homework1.deps.json
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/bin/Debug/net6.0/Homework1.runtimeconfig.json
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/bin/Debug/net6.0/Homework1.dll
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/bin/Debug/net6.0/Homework1.pdb
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/Homework1.csproj.AssemblyReference.cache
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/Homework1.GeneratedMSBuildEditorConfig.editorconfig
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/Homework1.AssemblyInfoInputs.cache
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/Homework1.AssemblyInfo.cs
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/Homework1.csproj.CoreCompileInputs.cache
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/Homework1.dll
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/refint/Homework1.dll
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/Homework1.pdb
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/Homework1.genruntimeconfig.cache
+/home/yaroslav/RiderProjects/ConsoleApp4/Homework1/obj/Debug/net6.0/ref/Homework1.dll
