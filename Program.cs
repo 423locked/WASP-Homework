@@ -6,7 +6,7 @@ namespace Homework
     {
         static void Main()
         {
-            Tests.Test2_2();
+            
         }
     }
 }
