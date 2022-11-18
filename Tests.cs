@@ -1,3 +1,5 @@
+using System.Threading.Channels;
+
 namespace Homework;
 
 public static class Tests
@@ -19,5 +21,26 @@ public static class Tests
         Hometasks.Task1_3(4, 0, 0, 4, 4, 4);
         Hometasks.Task1_3(0, 0, 4, 0, 0, 4);
         Hometasks.Task1_3(0, 0, 4, 0, 4, 4);
+    }
+
+    public static void Test3_1()
+    {
+        int[] a = {1, 1, 1, 1};
+        int p = 2;
+        Console.WriteLine(Hometasks.Task3_1(p, a));
+    }
+    
+    public static void Test3_2()
+    {
+        int[] a = {5, 6, 0, -1, 3, 9, 4, 4, 4, 8};
+        Console.WriteLine(Hometasks.Task3_2(2, a));
+    }
+
+    public static void Test3_3()
+    {
+        int[] a = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        string query = "2:10:-2";
+        foreach (var el in Hometasks.Task3_3(a, query))
+            Console.WriteLine($"{el} ");
     }
 }

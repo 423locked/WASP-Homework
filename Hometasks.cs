@@ -1,6 +1,5 @@
 namespace Homework;
 
-using System.Text;
 using System;
 
 public static class Hometasks
@@ -127,5 +126,53 @@ public static class Hometasks
         long d = n & 0x51 | n & 0x50;
         Console.WriteLine(Convert.ToString(n, 2));
         Console.WriteLine(d);
+    }
+
+    public static double Task3_1(int p, int[] v)
+    {
+        double sum = 0;
+        for (int i = 0; i < v.Length; i++)
+            sum += v[i];
+        return Math.Pow(sum, (double) 1 / p);
+    }
+    
+    public static int Task3_2(int k, int[] arr)
+    {
+        for (int i = 0; i < arr.Length; i++)    
+            for (int j = 0; j < arr.Length - 1; j++)
+                if (arr[j] > arr[j + 1])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp; 
+                }
+
+        arr = arr.Distinct().ToArray();
+
+        return arr[k - 1];
+    }
+
+    public static int[] Task3_3(int[] arr, string q)
+    {
+        int[] qvals = q.Split(':').Select(x => int.Parse(x)).ToArray();
+        int j = 0, count = 0;
+        
+        if (qvals[2] < 0)
+            for (int i = qvals[1]; i >= qvals[0]; i += qvals[2]) 
+                count++;
+        else 
+            for (int i = qvals[0]; i <= qvals[1]; 
+                 i += qvals[2]) count++;
+        
+        int[] nums = new int[count];
+        
+        if (qvals[2] < 0)
+            for (int i = qvals[1]; i >= qvals[0]; i += qvals[2])
+            { nums[j] = arr[i]; j++; }
+        else
+            for (int i = qvals[0]; i <= qvals[1]; i += qvals[2])
+            { nums[j] = arr[i]; j++; }
+
+        return nums;
     }
 }
